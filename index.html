@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>VetOne.AI - Assistente Veterinário com Inteligência Artificial para Clínicas Veterinárias no Brasil</title>
+    <meta name="description" content="VetOne.AI é o assistente veterinário com IA que transforma sua clínica. Transcrição de consultas, diagnóstico assistido por IA, prontuário digital e gestão completa. Grátis para testar. Feito para veterinários brasileiros.">
+    <meta name="keywords" content="veterinário, clínica veterinária, software veterinário, IA veterinária, prontuário digital veterinário, gestão clínica veterinária, transcrição veterinária, diagnóstico veterinário, SOAP veterinário, Brasil">
+    <meta name="author" content="VetOne.AI">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vetone.ai/">
+    <meta property="og:title" content="VetOne.AI - Assistente Veterinário com Inteligência Artificial">
+    <meta property="og:description" content="Transforme sua clínica veterinária com IA. Economize tempo, melhore diagnósticos e cuide melhor dos seus pacientes.">
+    <meta property="og:image" content="vetone-logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://vetone.ai/">
+    <meta property="twitter:title" content="VetOne.AI - Assistente Veterinário com IA">
+    <meta property="twitter:description" content="Transforme sua clínica veterinária com IA. Economize tempo, melhore diagnósticos e cuide melhor dos seus pacientes.">
+    <meta property="twitter:image" content="vetone-logo.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="vetone-logo.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "VetOne.AI",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "iOS, Android",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "BRL"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "ratingCount": "150"
+        },
+        "description": "Assistente veterinário com inteligência artificial para clínicas veterinárias no Brasil"
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container-nav">
+            <div class="nav-wrapper">
+                <a href="#" class="logo">
+                    <img src="Logo_1024x500.svg" alt="VetOne.AI Logo">
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#recursos">Recursos</a></li>
+                    <li><a href="#como-funciona">Como Funciona</a></li>
+                    <li><a href="pricing.html">Preços</a></li>
+                    <li><a href="#lista-espera" class="btn-nav">Testar Grátis</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-gradient"></div>
+        <div class="container-hero">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-gradient">✨ IA Veterinária mais Avançada do Brasil</span>
+                </div>
+                <h1 class="hero-title">
+                    A Assistente de IA<br>
+                    <span class="gradient-text">Feita para Veterinários</span>
+                </h1>
+                <p class="hero-description">
+                    Transforme consultas em prontuários completos, receba sugestões diagnósticas inteligentes e ofereça o melhor cuidado para seus pacientes — tudo com IA treinada especialmente para medicina veterinária.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#lista-espera" class="btn btn-primary-gradient">
+                        <span>Testar Grátis por 30 Dias</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="#como-funciona" class="btn btn-secondary-modern">
+                        <span>Ver Demonstração</span>
+                    </a>
+                </div>
+
+                <!-- App Store Badges -->
+                <div class="app-store-badges">
+                    <div class="badge-label">Disponível em breve</div>
+                    <div class="store-badges">
+                        <a href="#lista-espera" class="store-badge" aria-label="Baixar na App Store (Em breve)">
+                            <img src="Badge-AppStore.svg" alt="Baixar na App Store" />
+                        </a>
+                        <a href="#lista-espera" class="store-badge" aria-label="Baixar no Google Play (Em breve)">
+                            <img src="Badge-GooglePlay.svg" alt="Disponível no Google Play" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Visual -->
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <div class="card-header">
+                        <span class="card-icon">🎙️</span>
+                        <span class="card-status">Gravando...</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="waveform">
+                            <span></span><span></span><span></span><span></span><span></span>
+                            <span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                        <p class="card-text">"Paciente apresenta tosse há 3 dias..."</p>
+                    </div>
+                </div>
+
+                <div class="floating-card card-2">
+                    <div class="card-header">
+                        <span class="card-icon">🧠</span>
+                        <span class="card-label">Diagnóstico Sugerido</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="diagnosis-item">
+                            <span class="diagnosis-name">Traqueobronquite</span>
+                            <span class="confidence-bar">
+                                <span class="confidence-fill" style="width: 87%"></span>
+                            </span>
+                            <span class="confidence-text">87%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="floating-card card-3">
+                    <div class="card-header">
+                        <span class="card-icon">💊</span>
+                        <span class="card-label">Prescrição Gerada</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="prescription-item">
+                            <span>✓ Antibiótico - 10 dias</span>
+                            <span>✓ Antitussígeno - 5 dias</span>
+                            <span class="alert-badge">⚠️ Interação detectada</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar">
+        <div class="container">
+            <div class="stats-grid-modern">
+                <div class="stat-modern">
+                    <div class="stat-number gradient-text">50%</div>
+                    <div class="stat-label">Menos tempo em documentação</div>
+                </div>
+                <div class="stat-modern">
+                    <div class="stat-number gradient-text">15-20min</div>
+                    <div class="stat-label">Economizados por consulta</div>
+                </div>
+                <div class="stat-modern">
+                    <div class="stat-number gradient-text">98%</div>
+                    <div class="stat-label">Precisão em transcrição</div>
+                </div>
+                <div class="stat-modern">
+                    <div class="stat-number gradient-text">100%</div>
+                    <div class="stat-label">Conformidade LGPD</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="como-funciona" class="how-it-works">
+        <div class="container">
+            <div class="section-header-modern">
+                <span class="section-badge">Como Funciona</span>
+                <h2>Do Atendimento ao Prontuário<br>em <span class="gradient-text">3 Passos Simples</span></h2>
+                <p>Deixe a IA cuidar da burocracia enquanto você cuida dos seus pacientes</p>
+            </div>
+
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <div class="step-icon-modern">🎙️</div>
+                    <h3>Grave a Consulta</h3>
+                    <p>Fale naturalmente durante o atendimento. Nossa IA transcreve tudo com precisão, entendendo termos veterinários em português.</p>
+                    <div class="step-feature-list">
+                        <span class="feature-pill">Mãos livres</span>
+                        <span class="feature-pill">Português BR</span>
+                        <span class="feature-pill">Offline</span>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <div class="step-icon-modern">🧠</div>
+                    <h3>Receba Sugestões Inteligentes</h3>
+                    <p>A IA analisa os sintomas e sugere diagnósticos, exames e tratamentos baseados em milhões de casos veterinários.</p>
+                    <div class="step-feature-list">
+                        <span class="feature-pill">Tempo real</span>
+                        <span class="feature-pill">Diferenciais</span>
+                        <span class="feature-pill">Evidence-based</span>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <div class="step-icon-modern">📋</div>
+                    <h3>Finalize em Segundos</h3>
+                    <p>Revise o prontuário SOAP gerado automaticamente, ajuste se necessário e finalize. Prescrições e próximas etapas já estão prontas.</p>
+                    <div class="step-feature-list">
+                        <span class="feature-pill">SOAP automático</span>
+                        <span class="feature-pill">Prescrições</span>
+                        <span class="feature-pill">Follow-up</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="recursos" class="features-modern">
+        <div class="container">
+            <div class="section-header-modern">
+                <span class="section-badge">Recursos Poderosos</span>
+                <h2>Tudo que Você Precisa<br>em <span class="gradient-text">Uma Única Plataforma</span></h2>
+            </div>
+
+            <div class="features-grid-modern">
+                <div class="feature-card-modern">
+                    <div class="feature-icon-large">🎙️</div>
+                    <h3>Transcrição com IA</h3>
+                    <p>Capture consultas por voz com precisão de 98% em português brasileiro, incluindo vocabulário veterinário especializado.</p>
+                    <ul class="feature-benefits">
+                        <li>Geração automática de SOAP</li>
+                        <li>Templates personalizáveis</li>
+                        <li>Funciona offline</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card-modern">
+                    <div class="feature-icon-large">🧠</div>
+                    <h3>Diagnóstico Assistido</h3>
+                    <p>IA treinada em milhões de casos sugere diagnósticos, diferenciais e exames com score de confiança.</p>
+                    <ul class="feature-benefits">
+                        <li>Análise em tempo real</li>
+                        <li>Avaliação de urgência</li>
+                        <li>Histórico do paciente integrado</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card-modern">
+                    <div class="feature-icon-large">💊</div>
+                    <h3>Segurança em Prescrições</h3>
+                    <p>Detecção automática de interações medicamentosas e cálculo preciso de dosagens por peso e espécie.</p>
+                    <ul class="feature-benefits">
+                        <li>Alertas de interação</li>
+                        <li>Dosagens automáticas</li>
+                        <li>Biblioteca de medicamentos</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card-modern">
+                    <div class="feature-icon-large">📚</div>
+                    <h3>Pesquisa Científica</h3>
+                    <p>Acesso instantâneo ao PubMed e literatura veterinária com resumos em português gerados por IA.</p>
+                    <ul class="feature-benefits">
+                        <li>Integração PubMed</li>
+                        <li>Resumos automáticos</li>
+                        <li>Citações completas</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card-modern">
+                    <div class="feature-icon-large">🐾</div>
+                    <h3>Prontuário Digital</h3>
+                    <p>Histórico completo de cada paciente acessível instantaneamente, com fotos, vacinas e medicações.</p>
+                    <ul class="feature-benefits">
+                        <li>Busca instantânea</li>
+                        <li>Multi-pet por tutor</li>
+                        <li>Fotos clínicas integradas</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card-modern">
+                    <div class="feature-icon-large">📅</div>
+                    <h3>Agenda Inteligente</h3>
+                    <p>Gerencie consultas, follow-ups e tarefas com lembretes automáticos e sincronização em nuvem.</p>
+                    <ul class="feature-benefits">
+                        <li>Visualização semanal/mensal</li>
+                        <li>Lembretes automáticos</li>
+                        <li>Integração com pacientes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Waitlist Section -->
+    <section id="lista-espera" class="waitlist-modern">
+        <div class="container">
+            <div class="waitlist-wrapper">
+                <div class="waitlist-content-modern">
+                    <span class="section-badge light">Lista de Espera VIP</span>
+                    <h2>Seja um dos Primeiros<br>a <span class="gradient-text-light">Testar Gratuitamente</span></h2>
+                    <p>Entre na lista de espera e receba acesso exclusivo ao VetOne.AI. Teste grátis por 30 dias, sem cartão de crédito.</p>
+
+                    <div class="waitlist-benefits">
+                        <div class="benefit-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            <span>Acesso antecipado a novos recursos</span>
+                        </div>
+                        <div class="benefit-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            <span>Suporte prioritário de onboarding</span>
+                        </div>
+                        <div class="benefit-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            <span>Desconto especial para primeiros usuários</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="waitlist-form-wrapper">
+                    <form id="waitlistForm" class="modern-form">
+                        <div class="form-grid">
+                            <div class="form-group-modern">
+                                <label for="waitlist-name">Nome Completo *</label>
+                                <input type="text" id="waitlist-name" name="name" placeholder="Dr. João Silva" required>
+                            </div>
+                            <div class="form-group-modern">
+                                <label for="waitlist-email">E-mail Profissional *</label>
+                                <input type="email" id="waitlist-email" name="email" placeholder="joao@clinica.com.br" required>
+                            </div>
+                        </div>
+
+                        <div class="form-grid">
+                            <div class="form-group-modern">
+                                <label for="waitlist-phone">WhatsApp *</label>
+                                <input type="tel" id="waitlist-phone" name="phone" placeholder="(11) 99999-9999" required>
+                            </div>
+                            <div class="form-group-modern">
+                                <label for="waitlist-crmv">CRMV *</label>
+                                <input type="text" id="waitlist-crmv" name="crmv" placeholder="SP 12345" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group-modern">
+                            <label for="waitlist-clinic">Nome da Clínica</label>
+                            <input type="text" id="waitlist-clinic" name="clinic" placeholder="Clínica Veterinária Exemplo">
+                        </div>
+
+                        <div class="form-grid">
+                            <div class="form-group-modern">
+                                <label for="waitlist-city">Cidade/Estado *</label>
+                                <input type="text" id="waitlist-city" name="city" placeholder="São Paulo, SP" required>
+                            </div>
+                            <div class="form-group-modern">
+                                <label for="waitlist-specialty">Especialidade</label>
+                                <select id="waitlist-specialty" name="specialty">
+                                    <option value="">Selecione...</option>
+                                    <option value="pequenos">Pequenos Animais</option>
+                                    <option value="grandes">Grandes Animais</option>
+                                    <option value="equinos">Equinos</option>
+                                    <option value="exoticos">Animais Exóticos</option>
+                                    <option value="geral">Clínico Geral</option>
+                                    <option value="cirurgia">Cirurgia</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group-modern checkbox-modern">
+                            <label>
+                                <input type="checkbox" name="terms" required>
+                                <span>Aceito receber comunicações do VetOne.AI e concordo com a <a href="#" target="_blank">Política de Privacidade</a></span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn-submit-modern">
+                            <span>Entrar na Lista de Espera</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <p class="form-footer-note">🔒 Seus dados estão seguros. Conformidade 100% com LGPD.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact-modern">
+        <div class="container">
+            <div class="contact-grid-modern">
+                <div class="contact-info-modern">
+                    <span class="section-badge">Contato</span>
+                    <h2>Vamos Conversar?</h2>
+                    <p>Tem dúvidas ou quer saber mais sobre nossos planos? Nossa equipe está pronta para ajudar!</p>
+
+                    <div class="contact-methods-modern">
+                        <a href="mailto:contato@vetone.ai" class="contact-method-card">
+                            <div class="method-icon-modern">📧</div>
+                            <div>
+                                <h4>E-mail</h4>
+                                <p>contato@vetone.ai</p>
+                            </div>
+                        </a>
+
+                        <a href="https://wa.me/5511999999999" class="contact-method-card">
+                            <div class="method-icon-modern">📱</div>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>+55 (11) 9xxxx-xxxx</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="social-modern">
+                        <h4>Siga-nos</h4>
+                        <div class="social-links-modern">
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <span>📷</span>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <span>💼</span>
+                            </a>
+                            <a href="#" class="social-link" aria-label="YouTube">
+                                <span>🎥</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-modern">
+                    <form id="contactForm" class="modern-form">
+                        <div class="form-group-modern">
+                            <label for="contact-name">Nome Completo *</label>
+                            <input type="text" id="contact-name" name="name" placeholder="Seu nome" required>
+                        </div>
+
+                        <div class="form-group-modern">
+                            <label for="contact-email">E-mail *</label>
+                            <input type="email" id="contact-email" name="email" placeholder="seu@email.com" required>
+                        </div>
+
+                        <div class="form-group-modern">
+                            <label for="contact-phone">Telefone</label>
+                            <input type="tel" id="contact-phone" name="phone" placeholder="(11) 99999-9999">
+                        </div>
+
+                        <div class="form-group-modern">
+                            <label for="contact-subject">Assunto *</label>
+                            <select id="contact-subject" name="subject" required>
+                                <option value="">Selecione...</option>
+                                <option value="demo">Solicitar Demonstração</option>
+                                <option value="pricing">Informações sobre Preços</option>
+                                <option value="clinic">Plano Clínica/Enterprise</option>
+                                <option value="support">Suporte Técnico</option>
+                                <option value="partnership">Parcerias</option>
+                                <option value="other">Outro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group-modern">
+                            <label for="contact-message">Mensagem *</label>
+                            <textarea id="contact-message" name="message" rows="5" placeholder="Como podemos ajudar?" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit-modern">
+                            <span>Enviar Mensagem</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-modern">
+        <div class="container">
+            <div class="footer-grid-modern">
+                <div class="footer-col-main">
+                    <img src="Logo_1024x500.svg" alt="VetOne.AI" class="footer-logo">
+                    <p>Inteligência artificial veterinária feita para clínicas modernas no Brasil.</p>
+                    <div class="footer-social-modern">
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="YouTube">🎥</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Produto</h4>
+                    <ul>
+                        <li><a href="#recursos">Recursos</a></li>
+                        <li><a href="#precos">Preços</a></li>
+                        <li><a href="#lista-espera">Teste Grátis</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Privacidade</a></li>
+                        <li><a href="#">LGPD</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom-modern">
+                <p>&copy; 2025 VetOne.AI Tecnologia Veterinária Ltda. Todos os direitos reservados.</p>
+                <p>São Paulo, SP - Brasil • CNPJ: XX.XXX.XXX/XXXX-XX</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal-modern">
+        <div class="modal-content-modern">
+            <button class="modal-close" aria-label="Fechar">&times;</button>
+            <div class="modal-icon-modern">✅</div>
+            <h3 id="modalTitle">Sucesso!</h3>
+            <p id="modalMessage">Sua mensagem foi enviada com sucesso.</p>
+            <button class="btn-modal-close">Fechar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
