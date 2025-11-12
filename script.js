@@ -158,7 +158,7 @@ if (waitlistForm) {
 
         try {
             // Submit to backend API
-            const response = await fetch('http://localhost:3000/api/waitlist', {
+            const response = await fetch('/api/waitlist', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -240,7 +240,7 @@ if (contactForm) {
 
         try {
             // Submit to backend API
-            const response = await fetch('http://localhost:3000/api/contact', {
+            const response = await fetch('/api/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -288,10 +288,9 @@ if (contactForm) {
 }
 
 // API Configuration
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = '/api';
 
-// Note: In production, update API_BASE_URL to your deployed backend URL
-// Example: const API_BASE_URL = 'https://api.vetone.ai';
+// Note: API calls use relative URLs that work in both local and production environments
 
 // Intersection Observer for animations
 const observerOptions = {
