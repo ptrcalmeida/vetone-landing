@@ -378,6 +378,25 @@ yearElements.forEach(el => {
     el.textContent = currentYear;
 });
 
+// FAQ Accordion functionality
+const faqQuestions = document.querySelectorAll('.faq-question');
+faqQuestions.forEach(question => {
+    question.addEventListener('click', () => {
+        const faqItem = question.parentElement;
+        const isActive = faqItem.classList.contains('active');
+
+        // Close all other FAQ items
+        document.querySelectorAll('.faq-item').forEach(item => {
+            item.classList.remove('active');
+        });
+
+        // Toggle current item
+        if (!isActive) {
+            faqItem.classList.add('active');
+        }
+    });
+});
+
 // Console welcome message
 console.log('%c🐾 VetOne.AI', 'font-size: 24px; font-weight: bold; color: #4A90E2;');
 console.log('%cTransformando o atendimento veterinário com IA', 'font-size: 14px; color: #A06BE8;');
