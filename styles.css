@@ -455,7 +455,7 @@ p {
 
 .card-3 {
     bottom: 20px;
-    left: 40px;
+    left: -20px;
     width: 290px;
     animation-delay: 1s;
 }
