@@ -441,7 +441,7 @@ p {
 
 .card-1 {
     top: 25%;
-    left: 5%;
+    left: 2%;
     width: 280px;
     animation-delay: 0s;
 }
@@ -456,7 +456,7 @@ p {
 
 .card-3 {
     top: 25%;
-    right: 5%;
+    right: 2%;
     width: 285px;
     animation-delay: 4s;
 }
