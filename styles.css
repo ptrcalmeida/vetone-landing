@@ -440,22 +440,22 @@ p {
 }
 
 .card-1 {
-    top: 5%;
-    right: 20px;
+    top: 15%;
+    right: 5%;
     width: 280px;
     animation-delay: 0s;
 }
 
 .card-2 {
-    top: 42%;
-    right: 35px;
+    top: 35%;
+    right: 35%;
     width: 270px;
     animation-delay: 2s;
 }
 
 .card-3 {
-    top: 78%;
-    right: 25px;
+    top: 55%;
+    right: 65%;
     width: 285px;
     animation-delay: 4s;
 }
