@@ -440,24 +440,23 @@ p {
 }
 
 .card-1 {
-    top: 25%;
-    left: 2%;
-    width: 280px;
+    top: 30px;
+    right: 40px;
+    width: 300px;
     animation-delay: 0s;
 }
 
 .card-2 {
-    top: 60%;
-    left: 50%;
-    width: 270px;
+    top: 200px;
+    right: 30px;
+    width: 280px;
     animation-delay: 2s;
-    animation-name: floatCardCenter;
 }
 
 .card-3 {
-    top: 25%;
-    right: 2%;
-    width: 285px;
+    bottom: 40px;
+    right: 50px;
+    width: 290px;
     animation-delay: 4s;
 }
 
@@ -466,13 +465,6 @@ p {
     25% { transform: translateY(-12px) rotate(1deg); }
     50% { transform: translateY(-8px) rotate(-0.5deg); }
     75% { transform: translateY(-15px) rotate(0.5deg); }
-}
-
-@keyframes floatCardCenter {
-    0%, 100% { transform: translateX(-50%) translateY(0) rotate(0deg); }
-    25% { transform: translateX(-50%) translateY(-12px) rotate(1deg); }
-    50% { transform: translateX(-50%) translateY(-8px) rotate(-0.5deg); }
-    75% { transform: translateX(-50%) translateY(-15px) rotate(0.5deg); }
 }
 
 .card-header {
