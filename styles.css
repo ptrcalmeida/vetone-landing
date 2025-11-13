@@ -434,30 +434,37 @@ p {
     padding: var(--space-6);
     box-shadow: var(--shadow-xl);
     backdrop-filter: blur(10px);
-    animation: floatCard 4s ease-in-out infinite;
+    animation: floatCard 6s ease-in-out infinite;
     z-index: 1;
     pointer-events: none;
-    width: 280px;
 }
 
 .card-1 {
-    top: 20px;
-    right: 20px;
+    top: 30px;
+    right: 40px;
+    width: 300px;
+    animation-delay: 0s;
 }
 
 .card-2 {
-    top: 180px;
-    right: 20px;
+    top: 200px;
+    right: 30px;
+    width: 280px;
+    animation-delay: 2s;
 }
 
 .card-3 {
-    top: 340px;
-    right: 20px;
+    bottom: 40px;
+    right: 50px;
+    width: 290px;
+    animation-delay: 4s;
 }
 
 @keyframes floatCard {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    25% { transform: translateY(-12px) rotate(1deg); }
+    50% { transform: translateY(-8px) rotate(-0.5deg); }
+    75% { transform: translateY(-15px) rotate(0.5deg); }
 }
 
 .card-header {
